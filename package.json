@@ -1,0 +1,22 @@
+{
+  "name": "n8n-nodes-sharp-pdf-merge",
+  "version": "0.1.0",
+  "description": "n8n node to merge PDF + PNG using sharp",
+  "keywords": ["n8n", "node", "pdf", "sharp", "image"],
+  "author": "Victor from guru-ai",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "sharp": "^0.32.6",
+    "pdf-lib": "^1.17.1"
+  },
+  "n8n": {
+    "nodes": "dist/nodes"
+  }
+}
